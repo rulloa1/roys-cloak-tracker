@@ -1,0 +1,8 @@
+# Exported from Render on 2025-04-16T22:22:31Z
+services:
+- type: web
+  name: tweaksquad-cloak-tracker
+  runtime: static
+  repo: https://github.com/rulloa1/tweaksquad-cloak-tracker
+  staticPublishPath: ./public
+version: "1"
