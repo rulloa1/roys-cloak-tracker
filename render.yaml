@@ -1,8 +1,12 @@
 # Exported from Render on 2025-04-16T22:22:31Z
 services:
 - type: web
-  name: tweaksquad-cloak-tracker
-  runtime: static
-  repo: https://github.com/rulloa1/tweaksquad-cloak-tracker
-  staticPublishPath: ./public
+  name: roys-cloak-tracker
+  runtime: php
+  repo: https://github.com/rulloa1/roys-cloak-tracker.git
+  buildCommand: ""
+  startCommand: "php -S 0.0.0.0:$PORT -t ."
+  envVars:
+  - key: PHP_VERSION
+    value: "8.1"
 version: "1"
